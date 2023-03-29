@@ -1,0 +1,128 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer {
+    padding-top: 1rem;
+    background-color: $footer;
+}
+
+// Contact Box Content
+.contact-box {
+    position: relative;
+
+    &__icon {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        color: $primary;
+        padding-top: 0.5rem;
+
+        @include media-breakpoint-up(sm) {
+            font-size: 3rem;
+        }
+    }
+
+    &__info {
+        color: $white;
+        font-weight: 600;
+
+        &--title {
+            color: $white;
+
+            font-size: 1rem;
+            text-decoration: none;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1.4rem;
+            }
+        }
+
+        &--subtitle {
+            color: $gray-200;
+            font-size: 0.8rem;
+
+            @include media-breakpoint-up(lg) {
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+    
+}
+
+// Social Media 
+.social {
+    margin-top: 1rem;
+    padding: 1.5rem 0;
+    background-color: #333;
+
+    &--icon {
+         
+        i {
+            font-size: 1rem;
+            margin: 0 0.5rem;
+
+            @include media-breakpoint-up(sm) {
+                font-size: 2rem;
+            }
+        }
+    }
+
+}
+
+// Company Info
+.company-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+
+    li {
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+
+        a {
+            color: $white;
+            text-decoration: none;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+// Footer Bottom
+.footer-bottom {
+    background-color: $black;
+
+    &__copyright {
+        color: $gray-600;
+        font-weight: 400;
+
+        a {
+            color: $gray-300;
+            text-decoration: none;
+
+            &:hover {
+                color: $primary;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// Last Button
+.back-to-top {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+    z-index: 1;
+
+    i {
+        color: $white;
+        font-size: 1rem;
+        @include absoluteCenter;
+    }
+}
