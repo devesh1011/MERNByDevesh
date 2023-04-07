@@ -17,3 +17,7 @@
 @use '../scss/sections/portfolio';
 @use '../scss/sections/getstarted';
 @use '../scss/sections/footer';
+
+html {
+    scroll-behavior: smooth;
+}

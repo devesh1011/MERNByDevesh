@@ -27,12 +27,10 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">faq</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">contact</a>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
                     </li>
                 </ul>
                 <button type="button" class="rounded-pill btn-rounded">
@@ -55,11 +53,11 @@
                     <h1 class="display-2">
                         <span class="display-2--intro">Hey!, I'm Devesh</span>
                         <span class="display-2--description lh-base">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis inventore autem nam
-                            ducimus, dolor beatae aut illum corporis
+                            Creating Intuitive and Engaging Interfaces: A Frontend Developer Dedicated to Bringing Your
+                            Vision to Life
                         </span>
                     </h1>
-                    <button type="button" class="rounded-pill btn-rounded">Get in Touch
+                    <button href="#contact" type="button" class="rounded-pill btn-rounded">Get in Touch
                         <span><i class="fas fa-arrow-right"></i></span>
                     </button>
                 </div>
@@ -67,13 +65,13 @@
                 <div class="col-md-6 intros text-end">
                     <div class="video-box">
                         <img src="img/intro-section-illustration.png" alt="video illutration" class="img-fluid">
-                        <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+                        <!-- <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
                             <span>
                                 <i class="fas fa-play-circle"></i>
                             </span>
                             <span class="border-animation border-animation--border-1"></span>
                             <span class="border-animation border-animation--border-2"></span>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -86,7 +84,7 @@
     </section>
 
     <!-- Companies -->
-    <section id="company" class="companies">
+    <!-- <section id="company" class="companies">
         <div class="container">
             <div class="row text-center">
                 <h4 class="fw-bold lead mb-3">Trusted by Companies like</h4>
@@ -133,13 +131,13 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <div class="row text-center">
-                <h1 class="display-3 fw-bold">Our Services</h1>
+                <h1 class="display-3 fw-bold">My Services</h1>
                 <div class="heading-line mb-1">
                 </div>
             </div>
@@ -147,16 +145,17 @@
             <div class="row pt-2 pb-2 mt-0 mb-3">
                 <div class="col-md-6 border-right">
                     <div class="bg-white p-3">
-                        <h2 class="fw-bold text-capitalize text-center">Our Services Range from Initial design to
-                            deployment anywhere anytime</h2>
+                        <h2 class="fw-bold text-capitalize text-center">My Services Range from Initial design to
+                            Creating a Full Responsive Website</h2>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="bg-white p-4 text-start">
                         <p class="fw-light">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut architecto, officia blanditiis
-                            delectus et vero odit commodi quasi sapiente, debitis illo consequatur omnis ratione
-                            voluptate a doloribus dolorum consequuntur illum?
+                            Welcome to my frontend development services page! As a skilled frontend developer, I
+                            specialize in crafting stunning and user-friendly websites and web
+                            applications. My focus is on creating seamless user experiences through intuitive design and
+                            development.
                         </p>
                     </div>
                 </div>
@@ -169,10 +168,15 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
                     <div class="services__content">
                         <div class="icon d-block fas fa-paper-plane"></div>
-                        <h3 class="display-3--title mt-1">Marketing</h3>
-                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, unde beatae? Id
-                            corporis nulla, alias ipsam, omnis quis tempore fuga eligendi praesentium, possimus dolorem
-                            deserunt corrupti magni placeat?</p>
+                        <h3 class="display-3--title mt-1">UI/UX Design</h3>
+                        <p class="lh-lg">I specialize in creating intuitive and engaging user interfaces that elevate
+                            the user experience. My focus is on designing interfaces that are easy to use and visually
+                            appealing, while also aligning with your brand and business goals.
+
+                            My design process involves understanding your target audience, user needs, and business
+                            objectives, and creating wireframes, prototypes, and high-fidelity designs that meet those
+                            needs. I use the latest design tools and methodologies to ensure that your designs are
+                            modern, functional, and visually stunning.</p>
 
                         <button type="button" class="rounded-pill btn-rounded border-primary">Learn More
                             <span><i class="fas fa-arrow-right"></i></span>
@@ -196,10 +200,15 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
                     <div class="services__content">
                         <div class="icon d-block fas fa-code"></div>
-                        <h3 class="display-3--title mt-1">Web Development</h3>
-                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, unde beatae? Id
-                            corporis nulla, alias ipsam, omnis quis tempore fuga eligendi praesentium, possimus dolorem
-                            deserunt corrupti magni placeat?</p>
+                        <h3 class="display-3--title mt-1">Frontend Development</h3>
+                        <p class="lh-lg">I specialize in designing and developing the user-facing aspects of websites
+                            and web applications. I am proficient in HTML, CSS, JavaScript, and other relevant frontend
+                            frameworks such as React, Angular, and Vue.js.
+
+                            My expertise in cross-browser compatibility and accessibility ensures that your website
+                            looks and functions seamlessly across different devices and platforms, reaching a wider
+                            audience. Whether you need a simple landing page or a complex web application, I can help
+                            you build a fast, responsive, and intuitive frontend that elevates the user experience.</p>
 
                         <button type="button" class="rounded-pill btn-rounded border-primary">Learn More
                             <span><i class="fas fa-arrow-right"></i></span>
@@ -213,10 +222,13 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
                     <div class="services__content">
                         <div class="icon d-block fas fa-cloud-upload-alt"></div>
-                        <h3 class="display-3--title mt-1">Cloud Hosting</h3>
-                        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, unde beatae? Id
-                            corporis nulla, alias ipsam, omnis quis tempore fuga eligendi praesentium, possimus dolorem
-                            deserunt corrupti magni placeat?</p>
+                        <h3 class="display-3--title mt-1">Website Maintainence</h3>
+                        <p class="lh-lg">My website maintenance services include regular software updates, security
+                            checks, website backups, and content updates. I can also troubleshoot any issues that arise
+                            and make sure that your website is optimized for speed and performance.
+
+                            I understand that website maintenance can be time-consuming and overwhelming, which is why I
+                            offer flexible maintenance plans that are customized to your specific needs.</p>
 
                         <button type="button" class="rounded-pill btn-rounded border-primary">Learn More
                             <span><i class="fas fa-arrow-right"></i></span>
@@ -256,8 +268,10 @@
                             <div class="testimonials__card">
                                 <p class="lh-lg">
                                     <i class="fas fa-quote-left"></i>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorem ut
-                                    corrupti sit! Debitis, consequuntur non enim rem amet recusandae aspernatur?
+                                    Devesh is a true professional who has helped us revamp my website's frontend. His
+                                    attention to detail and ability to understand my needs made the entire process
+                                    seamless. He is a talented and reliable frontend developer who I would highly
+                                    recommend.
                                     <i class="fas fa-quote-right"></i>
                                 </p>
                                 <div class="ratings p-1">
@@ -275,8 +289,8 @@
 
                             <!-- Client Name -->
                             <div class="testimonials__name">
-                                <h3>Elizabeth Olsen</h3>
-                                <p class="lead fw-light">CEO & Founder</p>
+                                <h3>Amelyndia Smith</h3>
+                                <p class="lead fw-light">Social Media Manager</p>
                             </div>
                         </div>
 
@@ -286,8 +300,11 @@
                             <div class="testimonials__card">
                                 <p class="lh-lg">
                                     <i class="fas fa-quote-left"></i>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorem ut
-                                    corrupti sit! Debitis, consequuntur non enim rem amet recusandae aspernatur?
+                                    Working with him was an amazing experience. He is an expert frontend developer who
+                                    is not only talented but also very patient and understanding. He worked on our
+                                    website redesign, and we couldn't be happier with the results. He delivered the
+                                    project on time and within budget, and his work has significantly improved our
+                                    online presence.
                                     <i class="fas fa-quote-right"></i>
                                 </p>
                                 <div class="ratings p-1">
@@ -305,8 +322,8 @@
 
                             <!-- Client Name -->
                             <div class="testimonials__name">
-                                <h3>Robert Downey Jr.</h3>
-                                <p class="lead fw-light">CEO & Founder</p>
+                                <h3>Brian Wilson</h3>
+                                <p class="lead fw-light">Start Up Founder</p>
                             </div>
                         </div>
 
@@ -316,8 +333,10 @@
                             <div class="testimonials__card">
                                 <p class="lh-lg">
                                     <i class="fas fa-quote-left"></i>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorem ut
-                                    corrupti sit! Debitis, consequuntur non enim rem amet recusandae aspernatur?
+                                    I had the pleasure of working with Devesh on a frontend redesign project and I have
+                                    to say, his work is top-notch. He's a true professional with an exceptional eye for
+                                    detail. He took the time to understand our brand and our vision, and delivered a
+                                    product that exceeded our expectations. I highly recommend him!
                                     <i class="fas fa-quote-right"></i>
                                 </p>
                                 <div class="ratings p-1">
@@ -336,7 +355,7 @@
                             <!-- Client Name -->
                             <div class="testimonials__name">
                                 <h3>Patrick Nielson</h3>
-                                <p class="lead fw-light">HR @Google</p>
+                                <p class="lead fw-light">Marketing Manager</p>
                             </div>
                         </div>
                     </div>
@@ -369,20 +388,20 @@
                 <div class="heading-line">
                 </div>
                 <p class="lead">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum blanditiis porro error.
+                    Discover my latest work and explore how I bring creative solutions to life.
                 </p>
             </div>
         </div>
-        <div class="row text-center mt-5 mb-4 g-3">
+        <!-- <div class="row text-center mt-5 mb-4 g-3">
             <div class="col-md-12">
                 <button class="btn btn-outline-primary" type="button">All</button>
                 <button class="btn btn-outline-primary" type="button">Websites</button>
                 <button class="btn btn-outline-primary" type="button">Design</button>
                 <button class="btn btn-outline-primary" type="button">Mockup</button>
             </div>
-        </div>
+        </div> -->
 
-        <div class="container">
+        <div class="container mt-4">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="portfolio-box shadow">
@@ -458,10 +477,10 @@
     <section id="contact" class="get-started">
         <div class="container">
             <div class="row text-center">
-                <h1 class="display-3 fw-bold text-capitalize">Get Started</h1>
+                <h1 class="display-3 fw-bold text-capitalize">Contact Me</h1>
                 <div class="heading-line">
                 </div>
-                <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est culpa nostrum?
+                <p class="lh-lg">Let's connect and bring your vision to life - drop me a line and let's make it happen!
                 </p>
             </div>
         </div>
@@ -484,6 +503,7 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="col-12 col-lg-6 bg-white shadow p-3">
                     <div class="form w-100 pb-2">
                         <h4 class="display-3--title mb-5">
@@ -532,7 +552,7 @@
                         <i class="fa-regular fa-envelope-open"></i>
                     </div>
                     <div class="contact-box__info">
-                        <a href="#" class="contact-box__info--title">info@company.com</a>
+                        <a href="#" class="contact-box__info--title">deveshk237@gmail.com</a>
                         <p class="contact-box__info--subtitle">Online Support</p>
                     </div>
                 </div>
@@ -549,21 +569,20 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row text-center social">
                 <div class="col col-lg-6 col-md-6 text-white social--text text-center">
-                    Contact with us on social Media
+                    Contact with me on social Media
                 </div>
                 <div class="col col-lg-6 col-md-6 text-white social--icon">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-youtube"></i>
+                    <a href="https://www.instagram.com/imdeveshh/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Devesh_1011" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/devesh-1b2b04257/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
 
-        <div class="container mt-5">
+        <!-- <div class="container mt-5">
             <div class="row text-white justify-content-center mt-3 pb-3">
                 <div class="col col-12 col-sm-6 col-lg-6">
                     <h4 class="text-capitalize fw-bold">
@@ -611,7 +630,7 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Copyright container -->
         <div class="footer-bottom pt-5 pb-5">
@@ -619,7 +638,7 @@
                 <div class="row text-center text-white">
                     <div class="col-12">
                         <div class="footer-bottom__copyright">
-                            <i class="fa-regular fa-copyright"></i>Copyright 2023 <a href="#">MultiPurpose Company</a> |
+                            <i class="fa-regular fa-copyright"></i>Copyright 2023 <a href="#">Learn with Devesh</a> |
                             Created by <a href="#">Devesh</a>
                         </div>
                     </div>
